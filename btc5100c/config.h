@@ -15,23 +15,19 @@
 /* key matrix pins */
 #define MATRIX_ROW_PINS { E7, B0, B1, B2, B3, B4, B5, B6 }
 #define MATRIX_COL_PINS { D0, D1, D2, D3, D4, D5, D6, D7, E0, E1, C0, C1, C2, F0, E6 }
-#define UNUSED_PINS
 
-/* COL2ROW or ROW2COL */
-#define DIODE_DIRECTION COL2ROW
+/* led pins */
+#define NUM_LOCK_LED_PIN F1
+#define CAPS_LOCK_LED_PIN F2
+#define SCROLL_LOCK_LED_PIN F3
 
-/* number of backlight levels */
-#define BACKLIGHT_PIN B5
-#define BACKLIGHT_LEVELS 3
+/* fn key pin */
+#define FN_KEY_PIN B7
 
+/* pin wired to reset pin */
+#define RESET_PIN F7
 
 /* Set 0 if debouncing isn't needed */
 #define DEBOUNCING_DELAY 5
-
-/* Mechanical locking support. Use KC_LCAP, KC_LNUM or KC_LSCR instead in keymap */
-#define LOCKING_SUPPORT_ENABLE
-
-/* Locking resynchronize hack */
-#define LOCKING_RESYNC_ENABLE
 
 //#define MATRIX_HAS_GHOST
