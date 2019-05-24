@@ -1,7 +1,7 @@
 # btc5100c-qmk
 
 ## Build Log
-*Coming soon.*
+[Link to wiki](https://github.com/Wyse-/btc5100c-qmk/wiki/Build-Log).
 
 ## Description
 This is a [QMK firmware](https://github.com/qmk/qmk_firmware) keyboard/keymap for the [BTC 5100C keyboard](https://geekhack.org/index.php?topic=84303.0).
