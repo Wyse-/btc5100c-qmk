@@ -57,7 +57,7 @@ By default the wiring is as follows:
 | GND           | GND       | Ground           |
 
 ## Layout(s)
-The default layout (the only one available at the moment) is identical to the one native to the keyboard, meaning you will get all the Fn key extra keybinds (except SysRq and Break, at the moment). Note that the Num Lock layout is not implemented (yet). 
+The default layout (the only one available at the moment) is identical to the one native to the keyboard, meaning you will get all the Fn key extra keybinds (except SysRq, at the moment).
 
 The only addition is that by pressing Fn+Delete you will (provided you wired the F7 pin, or your own, to the RST one) put the Teensy++ 2.0 in bootloader mode: this is needed to re-flash the Teensy without needing to open the keyboard case. This has been implemented as an sure-fire alternative to the [RESET Quantum Keycode](https://github.com/qmk/qmk_firmware/blob/master/docs/quantum_keycodes.md#qmk-keycodes) which was not working for me (probably because of my Teensy++ 2.0 [being a clone](https://github.com/qmk/qmk_firmware/issues/532#issuecomment-239353210)).
 
